@@ -1,0 +1,27 @@
+
+/**
+ * This class will display if Jim succesfully Pranks Dwight
+ *
+ * @LMADAN
+ * @5/1
+ */
+public class PrankTest
+{
+   public static void main(String[] args)
+   {
+      Prank p1 = new Prank();
+      Prank p2 = new Prank("Asian Jim Prank", true, true );
+      
+      p1.prank();
+      p2.prank();
+      
+      for(int i = 0; i<= 1; i++)
+       {
+           p1.use();
+           p2.use();
+       }
+     
+      p1.prank();
+      p2.prank();
+   }
+}
